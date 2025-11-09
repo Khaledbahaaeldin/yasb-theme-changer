@@ -111,8 +111,8 @@ The project uses built-in cmdlets only; no extra modules required. PowerShell 5.
 1. Clone this repository:
 
    ```powershell
-   git clone https://github.com/<your-account>/yasb-nightrider20797.git
-   cd yasb-nightrider20797
+   git clone https://github.com/Khaledbahaaeldin/yasb-theme-changer.git
+   cd yasb-theme-changer
    ```
 
 2. Back up existing YASB config (recommended):
