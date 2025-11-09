@@ -57,7 +57,7 @@
 | Component | Purpose | Notes |
 |-----------|---------|-------|
 | Windows 10/11 | Operating system | Required for YASB and lock screen APIs |
-| [YASB](https://github.com/DenBot/YASB) | Status bar | Install first and verify it runs |
+| [YASB](https://github.com/amnweb/yasb) | Status bar | Install first and verify it runs |
 | Python 3.11 (64-bit) | Palette scripting | Required for `pywal` and Windows lock screen WinRT bindings |
 | `pywal` 3.3.0 | Palette generation | Installed into Python 3.11 user environment |
 | PowerShell 5.1/7+ | Automation scripts | Scripts use standard cmdlets, no extra modules |
@@ -80,7 +80,7 @@ All included in the setup steps below.
 
 ### 1. Install YASB
 
-1. Follow the official YASB installation instructions: [YASB GitHub](https://github.com/DenBot/YASB).
+1. Follow the official YASB installation instructions: [YASB GitHub](https://github.com/amnweb/yasb).
 2. Confirm `%USERPROFILE%\.config\yasb` exists and YASB runs without errors.
 3. Stop YASB before replacing configuration files to avoid conflicts.
 
